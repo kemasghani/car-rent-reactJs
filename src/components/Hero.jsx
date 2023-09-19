@@ -30,37 +30,6 @@ export function Hero() {
           </Link>
         </div>
       </div>
-      <div className="mt-20 px-6 2xl:px-0 max-w-screen-xl mx-auto">
-        <p className="font-semibold mb-8 text-center lg:text-left">
-          As featured in
-        </p>
-        <ul className="mx-auto mt-8 flex flex-wrap justify-center gap-x-10 gap-y-8 lg:mx-0 lg:justify-between">
-          <li className="flex">
-            <Icons.Forbes />
-          </li>
-          <li className="flex">
-            <Icons.TechCrunch />
-          </li>
-          <li className="flex">
-            <Icons.Wired />
-          </li>
-          <li className="hidden xl:flex">
-            <Icons.CNN />
-          </li>
-          <li className="flex">
-            <Icons.BBC />
-          </li>
-          <li className="flex">
-            <Icons.CBS />
-          </li>
-          <li className="flex">
-            <Icons.FastCompany />
-          </li>
-          <li className="hidden xl:flex">
-            <Icons.Huffpost />
-          </li>
-        </ul>
-      </div>
     </section>
   );
 }
